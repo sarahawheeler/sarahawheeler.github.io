@@ -7,8 +7,8 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}**,<br>
-possibly a corgi, most definitely not!  Either way there are really neat things I am up to!
+Hi I am **Sarah**.<br>
+I'm a junior studying Information Sciences + Data Science at UIUC. I love learning more about data science, especially visualization. Here are some of my visualizations for UIUC's course IS 445. 
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
