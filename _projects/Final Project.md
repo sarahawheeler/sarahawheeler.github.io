@@ -28,9 +28,9 @@ To begin, it is useful to compare total case counts across countries in Asia. Th
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/bar_chart.json" style="width: 100%"></vegachart>
 
- Nations with large populations, such as China or India, appear prominently, which reflects the relationship between population size and total infections. However, this relationship is not perfectly proportional. Some countries with large population sizes (compared to the rest of the continent) report significantly fewer cases, suggesting that factors beyond population—such as public health interventions, testing capacity, and reporting practices—may have influenced outcomes. One such country is Indonesia.
+ Nations with large populations, such as China or India, appear prominently, which reflects the relationship between population size and total infections. However, this relationship is not perfectly proportional. Some countries with large population sizes (compared to the rest of the continent) report significantly fewer cases, suggesting that factors beyond population—such as public health interventions, testing capacity, and reporting practices—may have influenced outcomes. One such country is Indonesia. Additionally, while India has the second-highest total case count, when compared to the overall continental trend, their trajectory only mirrors that of a surge in April 2022.
 
-While total case counts provide a useful snapshot, they do not capture how the pandemic evolved. The following time series visualization shows how new COVID-19 cases changed over time across Asia, with the ability to highlight individual countries for comparison.
+While total case counts provide a useful snapshot, they do not capture how the pandemic evolved. The following time series visualization shows how new COVID-19 cases changed over time across Asia, with the ability to highlight individual countries for comparison. These are all original visualizations and their code can be found in the Python notebook linked at the bottom.
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/asia_overlay.json" style="width: 100%"></vegachart>
 
