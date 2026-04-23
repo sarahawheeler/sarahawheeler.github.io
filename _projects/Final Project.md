@@ -10,24 +10,15 @@ custom_js:
   - justcharts
 ---
 <h3>Comparative Patterns of COVID-19 Spread Across Asian Countries</h3>
-<h6> Group Member Names: Sarah Wheeler </h6>
-
 <br>
-
-<div class="left">
-{% include elements/button.html link="https://github.com/sarahawheeler/sarahawheeler.github.io/blob/main/_data/owid-covid-data.csv" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://github.com/sarahawheeler/sarahawheeler.github.io/blob/main/python_notebooks/Final_Project_WB.ipynb" text="The Analysis" %}
-</div>
+<h6> Group Member Names: Sarah Wheeler </h6>
 
 <br>
 <br>
 
 <h3> Introduction </h3>
 
-The COVID-19 pandemic produced highly uneven outcomes across the globe, with substantial variation in case counts, timing of outbreaks, and overall public health impact. While global aggregates of case counts indeed do provide a broad overview, they often obscure regional differences. It should be noted that this analysis focuses specifically on Asia. Asia presents a compelling case for comparative study due to its diversity in population size, economic development, governance structures, and public health responses. Countries within Asia range from highly populous nations (such as China and India) to smaller states with markedly different healthcare infrastructures and policy approaches. This variation allows for meaningful comparisons within a shared regional context. Additionally, Asia was the initial epicenter of the COVID-19 outbreak, making it important for examining early transmission dynamics. Broadly, this project aims to highlight how different national contexts and response strategies contributed to divergent outcomes within the same geographic region.
+The COVID-19 pandemic produced highly uneven transmission outcomes across the globe, with substantial variation in case counts, timing of outbreaks, and overall public health impact. While global aggregates of case counts indeed does provide a broad overview, they often obscure regional differences. It should be noted that this analysis focuses specifically on Asia. Asia presents a compelling case for comparative study due to its diversity in population size, economic development, governance structures, and public health responses. Countries within Asia range from highly populous nations (such as China and India) to smaller states (such as Kuwait) with different healthcare infrastructures and policy approaches. This variation allows for meaningful comparisons within a shared regional context. Additionally, Asia was the initial epicenter of the COVID-19 outbreak, making it important for examining early transmission dynamics. Broadly, this project aims to highlight how different national contexts and response strategies contributed to divergent outcomes within the same geographic region.
 
 <h3> Understanding the Data </h3>
 
@@ -54,3 +45,13 @@ Examining individual trajectories highlights substantial variation in growth pat
 <br>
 <h5> References </h5>
 Mathieu, E., Ritchie, H., Ortiz-Ospina, E. et al. A global database of COVID-19 vaccinations. Natural Humanities Behavior (2024). https://doi.org/10.1038/s41562-021-01122-8
+
+<br>
+<br>
+<div class="left">
+{% include elements/button.html link="https://github.com/sarahawheeler/sarahawheeler.github.io/blob/main/_data/owid-covid-data.csv" text="The Data" %}
+</div>
+
+<div class="right">
+{% include elements/button.html link="https://github.com/sarahawheeler/sarahawheeler.github.io/blob/main/python_notebooks/Final_Project_WB.ipynb" text="The Analysis" %}
+</div>
