@@ -10,8 +10,7 @@ custom_js:
   - justcharts
 ---
 <h3>Comparative Patterns of COVID-19 Spread Across Asian Countries</h3>
-<h4> Group Member Names: Sarah Wheeler </h4>
-<br>
+<h6> Group Member Names: Sarah Wheeler </h6>
 
 <br>
 
@@ -20,11 +19,11 @@ custom_js:
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/sarahawheeler/sarahawheeler.github.io/blob/main/python_notebooks/Final_Project_Workbook.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/sarahawheeler/sarahawheeler.github.io/blob/main/python_notebooks/Final_Project_WB.ipynb" text="The Analysis" %}
 </div>
 
 <br>
-
+<br>
 
 <h3> Introduction </h3>
 
@@ -52,6 +51,6 @@ To better understand country-specific dynamics, the following visualization allo
 
 Examining individual trajectories highlights substantial variation in growth patterns. The timing and magnitude of these waves vary considerably across countries. Some experienced early surges followed by stabilization, while others show delayed or more prolonged increases. Some countries exhibit steady, gradual increases in total cases, while others show sharp spikes over relatively short periods. In several cases, late-stage surges are evident, indicating that the pandemic’s impact extended well beyond its initial phases. This variation underscores the importance of analyzing both cumulative totals and temporal trends when interpreting COVID-19 data.
 
-
+<br>
 <h5> References </h5>
 Mathieu, E., Ritchie, H., Ortiz-Ospina, E. et al. A global database of COVID-19 vaccinations. Natural Humanities Behavior (2024). https://doi.org/10.1038/s41562-021-01122-8
