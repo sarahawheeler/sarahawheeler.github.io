@@ -24,23 +24,23 @@ The COVID-19 pandemic produced highly uneven transmission outcomes across the gl
 
 The dataset used in this project is sourced from Our World in Data, which provides a comprehensive, publicly accessible compilation of COVID-19 metrics across countries (Mathieu et al., 2024). The dataset includes daily observations from 2020 through the end of 2023, capturing total confirmed cases, new daily cases, deaths, and vaccination rates. My primary variables of interest are total cases and new cases. These variables are examined across countries within Asia to identify patterns, peaks, and divergences in case trajectories. It is important to note that the dataset relies on country-level reporting, which may introduce inconsistencies due to differences in testing capacity, reporting standards, and transparency. 
 
-To begin, it is useful to compare total case counts across countries in Asia. The visualization below displays the fifteen countries with the highest cumulative number of COVID-19 cases through the end of 2023.
+To begin, it is useful to compare total case counts across countries in Asia. The visualization below displays the fifteen countries with the highest cumulative number of COVID-19 cases through the end of 2023. Hover over a different country to view its exact case count, or click on a column to highlight it.
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/bar_chart.json" style="width: 100%"></vegachart>
 
- Nations with large populations, such as India, appear prominently, which reflects the relationship between population size and total infections. However, this relationship is not perfectly proportional. Some countries with comparable population sizes report significantly fewer cases, suggesting that factors beyond population—such as public health interventions, testing capacity, and reporting practices—may have influenced outcomes.
+ Nations with large populations, such as China or India, appear prominently, which reflects the relationship between population size and total infections. However, this relationship is not perfectly proportional. Some countries with large population sizes (compared to the rest of the continent) report significantly fewer cases, suggesting that factors beyond population—such as public health interventions, testing capacity, and reporting practices—may have influenced outcomes. One such country is Indonesia.
 
 While total case counts provide a useful snapshot, they do not capture how the pandemic evolved. The following time series visualization shows how new COVID-19 cases changed over time across Asia, with the ability to highlight individual countries for comparison.
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/asia_overlay.json" style="width: 100%"></vegachart>
 
- First, the pandemic occurred in multiple waves, with distinct peaks corresponding to different periods of transmission. []
+ First, the pandemic occurred in multiple waves, with distinct peaks corresponding to different periods of transmission. There are several peaks in April 2022, July 2022, and October 2023 for the whole continent. Different countries contribute considerably differently to this trend. While there is a high similarity between the continental graph and China's graph, the comparison for Iran and Bahrain are vastly different. 
 
 To better understand country-specific dynamics, the following visualization allows for the selection of any Asian country and displays its cumulative case count over time.
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/country_dropdown.json" style="width: 100%"></vegachart>
 
-Examining individual trajectories highlights substantial variation in growth patterns. The timing and magnitude of these waves vary considerably across countries. Some experienced early surges followed by stabilization, while others show delayed or more prolonged increases. Some countries exhibit steady, gradual increases in total cases, while others show sharp spikes over relatively short periods. In several cases, late-stage surges are evident, indicating that the pandemic’s impact extended well beyond its initial phases. This variation underscores the importance of analyzing both cumulative totals and temporal trends when interpreting COVID-19 data.
+Examining trajectories at the country-level highlights a great deal of variation in growth patterns. The timing and magnitude of these waves vary considerably across countries. Some experienced early surges followed by stabilization, while others show delayed or more prolonged increases. Some countries exhibited steady, gradual increases in total cases, while others showed sharp spikes over relatively short periods. In several cases, late-stage surges are evident, indicating that the pandemic’s impact extended well beyond its initial phases. This variation underscores the importance of analyzing both cumulative totals and temporal trends when interpreting COVID-19 data.
 
 <br>
 <h5> References </h5>
