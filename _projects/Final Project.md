@@ -1,19 +1,17 @@
 ---
-name: Final Project 3.1 - COVID-19
+name: Comparative Patterns of COVID-19 Spread Across Asian Countries
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/covid.png
-description: This is my submission for IS 445's Final Project, an analysis looking at COVID-19 case counts across the world. 
+description: This is my submission for IS 445's Final Project, an analysis looking at COVID-19 case counts across Asia. 
 custom_js:
   - vega.min
   - vega-lite.min
   - vega-embed.min
   - justcharts
 ---
-<h3>COVID-19 Case Dashboard:</h3>
-<vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard.json" style="width: 100%"></vegachart>
+<h3>Comparative Patterns of COVID-19 Spread Across Asian Countries</h3>
+<h4> Group Member Names: Sarah Wheeler </h4>
 <br>
-#<h3>Plot 2:</h3>
-#<vegachart schema-url="{{ site.baseurl }}/assets/json/hw6_chart2.json" style="width: 100%"></vegachart>
 
 <br>
 
@@ -26,18 +24,34 @@ custom_js:
 </div>
 
 <br>
-<br>
-<br>
 
-<h3> Final Project Writeup: </h3>
-Group Member Names: Sarah Wheeler
 
-The dashboard I created is a continent-specific look into the COVID-19 pandemic. The top plot in the dashboard displays the fifteen countries in Asia with the highest total case counts (through the end of 2023), aiming to provide the viewer with a quick overview of which countries faced the greatest number of affected people. This plot is intended as the driver, so whenever someone clicks one of the bars in the plot, the two plots below are updates as well. To fully understand trends in case count, we must also look at how it is distributed over time. Thus, the second plot (on the left side of the dashboard, below the bar chart) details cases over time for the entirety of Asia. The orange line, which is updated upon a click to the driver plot (the bar plot), represents that countries new cases trend over time in comparison to the continent as a whole. To isolate each country's contribution to the overall aggregation of continental counts, I created the third plot. Viewers can choose from any Asian country (not just the top 15) to view the overall case number at any point throughout the pandemic via the dropdown. 
+<h3> Introduction </h3>
 
-When all three plots are examined in combination, I intend for experts and the general public alike to be able to explore how this region of the world was affected by the pandemic, and hope that stark differences in case count for countries that are similar can invite discussion on pandemic management and prevention.
+The COVID-19 pandemic produced highly uneven outcomes across the globe, with substantial variation in case counts, timing of outbreaks, and overall public health impact. While global aggregates of case counts indeed do provide a broad overview, they often obscure regional differences. It should be noted that this analysis focuses specifically on Asia. Asia presents a compelling case for comparative study due to its diversity in population size, economic development, governance structures, and public health responses. Countries within Asia range from highly populous nations (such as China and India) to smaller states with markedly different healthcare infrastructures and policy approaches. This variation allows for meaningful comparisons within a shared regional context. Additionally, Asia was the initial epicenter of the COVID-19 outbreak, making it important for examining early transmission dynamics. Broadly, this project aims to highlight how different national contexts and response strategies contributed to divergent outcomes within the same geographic region.
 
-The following are contextual datasets I believe would enrich the quality of the dashboard:
+<h3> Understanding the Data </h3>
 
-         - World Bank Population Dataset (link: https://data.worldbank.org/indicator/SP.POP.TOTL): This dataset tracks the overall population of each country through the dates the COVID-19 data was collected. One can use this data to normalize the total case count variable to better understand what percentage of a country's population the total_cases statistic amounts to. For example, while China has the highest case count of all Asian countries, it also has one of the highest populations. The population variable in the dataset is stagnant and does not update from day-to-day. I believe that using a variable that is not fixed would allow us to perform normalization at specific time points during the pandemic, providing a more holistic oversight.
-         
-         - Oxford University's COVID-19 Government Response Tracker (link: https://github.com/OxCGRT/covid-policy-dataset) This dataset describes each country's approach to the pandemic, including many of the measures that were taken and when they were implemented. I would be interested in examining the proactivity of each nation's measures, and comparing that to their normalized case count. Ideally, we'd be able to learn about how the speed of measure implementation can affect success, as well as examine which measures overall proved the most effective in preventing case transmission.
+The dataset used in this project is sourced from Our World in Data, which provides a comprehensive, publicly accessible compilation of COVID-19 metrics across countries (Mathieu et al., 2024). The dataset includes daily observations from 2020 through the end of 2023, capturing total confirmed cases, new daily cases, deaths, and vaccination rates. My primary variables of interest are total cases and new cases. These variables are examined across countries within Asia to identify patterns, peaks, and divergences in case trajectories. It is important to note that the dataset relies on country-level reporting, which may introduce inconsistencies due to differences in testing capacity, reporting standards, and transparency. 
+
+To begin, it is useful to compare total case counts across countries in Asia. The visualization below displays the fifteen countries with the highest cumulative number of COVID-19 cases through the end of 2023.
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/bar_chart.json" style="width: 100%"></vegachart>
+
+ Nations with large populations, such as India, appear prominently, which reflects the relationship between population size and total infections. However, this relationship is not perfectly proportional. Some countries with comparable population sizes report significantly fewer cases, suggesting that factors beyond population—such as public health interventions, testing capacity, and reporting practices—may have influenced outcomes.
+
+While total case counts provide a useful snapshot, they do not capture how the pandemic evolved. The following time series visualization shows how new COVID-19 cases changed over time across Asia, with the ability to highlight individual countries for comparison.
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/asia_line.json" style="width: 100%"></vegachart>
+
+ First, the pandemic occurred in multiple waves, with distinct peaks corresponding to different periods of transmission. []
+
+To better understand country-specific dynamics, the following visualization allows for the selection of any Asian country and displays its cumulative case count over time.
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/country_line.json" style="width: 100%"></vegachart>
+
+Examining individual trajectories highlights substantial variation in growth patterns. The timing and magnitude of these waves vary considerably across countries. Some experienced early surges followed by stabilization, while others show delayed or more prolonged increases. Some countries exhibit steady, gradual increases in total cases, while others show sharp spikes over relatively short periods. In several cases, late-stage surges are evident, indicating that the pandemic’s impact extended well beyond its initial phases. This variation underscores the importance of analyzing both cumulative totals and temporal trends when interpreting COVID-19 data.
+
+
+<h5> References </h5>
+Mathieu, E., Ritchie, H., Ortiz-Ospina, E. et al. A global database of COVID-19 vaccinations. Natural Humanities Behavior (2024). https://doi.org/10.1038/s41562-021-01122-8
