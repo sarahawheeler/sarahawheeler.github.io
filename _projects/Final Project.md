@@ -41,13 +41,13 @@ To begin, it is useful to compare total case counts across countries in Asia. Th
 
 While total case counts provide a useful snapshot, they do not capture how the pandemic evolved. The following time series visualization shows how new COVID-19 cases changed over time across Asia, with the ability to highlight individual countries for comparison.
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/asia_line.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/asia_overlay.json" style="width: 100%"></vegachart>
 
  First, the pandemic occurred in multiple waves, with distinct peaks corresponding to different periods of transmission. []
 
 To better understand country-specific dynamics, the following visualization allows for the selection of any Asian country and displays its cumulative case count over time.
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/country_line.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/country_dropdown.json" style="width: 100%"></vegachart>
 
 Examining individual trajectories highlights substantial variation in growth patterns. The timing and magnitude of these waves vary considerably across countries. Some experienced early surges followed by stabilization, while others show delayed or more prolonged increases. Some countries exhibit steady, gradual increases in total cases, while others show sharp spikes over relatively short periods. In several cases, late-stage surges are evident, indicating that the pandemic’s impact extended well beyond its initial phases. This variation underscores the importance of analyzing both cumulative totals and temporal trends when interpreting COVID-19 data.
 
