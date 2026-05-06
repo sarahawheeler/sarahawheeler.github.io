@@ -34,11 +34,11 @@ To begin, it is useful to compare total case counts across countries in Asia. Th
 
 Because COVID-19 is an infectious disease, population size is an important context variable for interpreting total case counts. A country with a larger population has a larger possible pool of infections, so comparing raw total cases without considering population can be misleading. The following visualization compares the population sizes of the same high-case Asian countries shown in the first bar chart.
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/pop_finale.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/new_pop.json" style="width: 100%"></vegachart>
 
 Population density provides another useful context variable because COVID-19 spreads through close contact. Countries with denser living environments may face different transmission risks than countries where people are more spread out. This visualization compares the population density of the same high-case countries shown in the total cases bar chart.
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/pop_density_finale.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/new_density.json" style="width: 100%"></vegachart>
 
 <h3> COVID-19 Evolution </h3>
 
