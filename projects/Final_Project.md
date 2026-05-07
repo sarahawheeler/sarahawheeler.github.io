@@ -36,7 +36,7 @@ Because COVID-19 is an infectious disease, population size is an important conte
 
 <figure style="text-align: center; margin: 2rem auto; overflow: visible;">
   <img 
-    src="/assets/pngs/population.png" 
+    src="/assets/pngs/pop_total.png" 
     alt="Population of the top 15 Asian countries by total COVID-19 cases" 
     style="display: block; width: auto; max-width: 100%; height: auto; margin: 0 auto;"
   >
@@ -47,7 +47,7 @@ Population density provides another useful context variable because COVID-19 spr
 
 <figure style="text-align: center; margin: 2rem auto; overflow: visible;">
   <img 
-    src="/assets/pngs/population_density.png" 
+    src="/assets/pngs/pop_dense.png" 
     alt="Population density of the top 15 Asian countries by total COVID-19 cases" 
     style="display: block; width: auto; max-width: 100%; height: auto; margin: 0 auto;"
   >
