@@ -1,85 +1,82 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Population of the top 15 Asian countries by total COVID-19 cases.",
-  "title": "Population of Top 15 Asian Countries by Total COVID-19 Cases",
-  "width": 900,
-  "height": 500,
   "data": {
     "values": [
       {
         "location": "China",
-        "total_cases": 99321242.0,
-        "population": 1425887360
+        "population": 1425887360.0,
+        "total_cases": 99321242.0
       },
       {
         "location": "India",
-        "total_cases": 45003055.0,
-        "population": 1417173120
+        "population": 1417173120.0,
+        "total_cases": 45003055.0
       },
       {
         "location": "South Korea",
-        "total_cases": 34571873.0,
-        "population": 51815808
+        "population": 51815808.0,
+        "total_cases": 34571873.0
       },
       {
         "location": "Japan",
-        "total_cases": 33803572.0,
-        "population": 123951696
+        "population": 123951696.0,
+        "total_cases": 33803572.0
       },
       {
         "location": "Turkey",
-        "total_cases": 17004677.0,
-        "population": 85341248
+        "population": 85341248.0,
+        "total_cases": 17004677.0
       },
       {
         "location": "Vietnam",
-        "total_cases": 11624000.0,
-        "population": 98186856
+        "population": 98186856.0,
+        "total_cases": 11624000.0
       },
       {
         "location": "Iran",
-        "total_cases": 7624699.0,
-        "population": 88550568
+        "population": 88550568.0,
+        "total_cases": 7624699.0
       },
       {
         "location": "Indonesia",
-        "total_cases": 6815156.0,
-        "population": 275501344
+        "population": 275501344.0,
+        "total_cases": 6815156.0
       },
       {
         "location": "Malaysia",
-        "total_cases": 5147359.0,
-        "population": 33938216
+        "population": 33938216.0,
+        "total_cases": 5147359.0
       },
       {
         "location": "Israel",
-        "total_cases": 4841772.0,
-        "population": 9449000
+        "population": 9449000.0,
+        "total_cases": 4841772.0
       },
       {
         "location": "Thailand",
-        "total_cases": 4760712.0,
-        "population": 71697024
+        "population": 71697024.0,
+        "total_cases": 4760712.0
       },
       {
         "location": "Philippines",
-        "total_cases": 4173631.0,
-        "population": 115559008
+        "population": 115559008.0,
+        "total_cases": 4173631.0
       },
       {
         "location": "Singapore",
-        "total_cases": 2771072.0,
-        "population": 5637022
+        "population": 5637022.0,
+        "total_cases": 2771072.0
       },
       {
         "location": "Iraq",
-        "total_cases": 2465545.0,
-        "population": 44496124
+        "population": 44496124.0,
+        "total_cases": 2465545.0
       },
       {
         "location": "Bangladesh",
-        "total_cases": 2046133.0,
-        "population": 171186368
+        "population": 171186368.0,
+        "total_cases": 2046133.0
       }
     ]
   },
@@ -121,5 +118,6 @@
         "format": ","
       }
     ]
-  }
+  },
+  "title": "Population of Top 15 Asian Countries by Total COVID-19 Cases"
 }
