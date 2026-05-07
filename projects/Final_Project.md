@@ -34,15 +34,23 @@ To begin, it is useful to compare total case counts across countries in Asia. Th
 
 Because COVID-19 is an infectious disease, population size is an important context variable for interpreting total case counts. A country with a larger population has a larger possible pool of infections, so comparing raw total cases without considering population can be misleading. The following visualization compares the population sizes of the same high-case Asian countries shown in the first bar chart.
 
-<figure>
-  <img src="/assets/pngs/population.png" alt="Population of the top 15 Asian countries by total COVID-19 cases" style="width: 100%;">
+<figure style="text-align: center; margin: 2rem auto; overflow: visible;">
+  <img 
+    src="/assets/pngs/population.png" 
+    alt="Population of the top 15 Asian countries by total COVID-19 cases" 
+    style="display: block; width: auto; max-width: 100%; height: auto; margin: 0 auto;"
+  >
   <figcaption>Figure: Population of the 15 highest-case Asian countries shown in the total cases bar chart.</figcaption>
 </figure>
 
 Population density provides another useful context variable because COVID-19 spreads through close contact. Countries with denser living environments may face different transmission risks than countries where people are more spread out. This visualization compares the population density of the same high-case countries shown in the total cases bar chart.
 
-<figure>
-  <img src="/assets/pngs/population_density.png" alt="Population density of the top 15 Asian countries by total COVID-19 cases" style="width: 100%;">
+<figure style="text-align: center; margin: 2rem auto; overflow: visible;">
+  <img 
+    src="/assets/pngs/population_density.png" 
+    alt="Population density of the top 15 Asian countries by total COVID-19 cases" 
+    style="display: block; width: auto; max-width: 100%; height: auto; margin: 0 auto;"
+  >
   <figcaption>Figure: Population density of the same high-case Asian countries shown in the total cases bar chart.</figcaption>
 </figure>
 
